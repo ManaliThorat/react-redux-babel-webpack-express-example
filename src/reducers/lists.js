@@ -1,9 +1,9 @@
 import { ITEM_CLICKED, ITEM_VIEW, ADD_ITEM } from '../actions/list_actions';
 
 let ListItems = [
-    { name: 'Actions', description: 'Description for actions' },
-    { name: 'Containers', description: 'Description for containers' },
-    { name: 'Reducers', description: 'Description for reducer' }
+    { name: 'Actions => click me', description: 'Description for actions' },
+    { name: 'Containers => click me', description: 'Description for containers' },
+    { name: 'Reducers => click me', description: 'Description for reducer' }
 ];
 
 const INITIAL_STATE = { all: ListItems, item: null};
