@@ -1,6 +1,5 @@
 {
   "name": "react-redux-babel-webpack-express-example",
-  "version": "0.1",
   "scripts": {
     "start": "node server.bundle.js"
   },
